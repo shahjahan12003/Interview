@@ -1,0 +1,12 @@
+﻿@model IEnumerable<MvcMasterDetails.Model.SalesHistory>
+
+@{
+    ViewBag.Title = "Report With Pivot";
+}
+
+<h2>Report With Pivot</h2>
+
+@Model.ReportWithPivot("", "ShopName", "SellingPrice", AggregateFunction.Sum, "ItemType", "ItemName")
+<br /><br />
+Raw Data:
+@Model.Report("ShopName", "ItemType", "ItemName", "CostPrice", "SellingPrice", "SellingDate", "Quantity")

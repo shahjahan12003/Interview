@@ -1,0 +1,9 @@
+﻿@model IEnumerable<MvcMasterDetails.Model.Employee>
+
+@{
+    ViewBag.Title = "RawReport";
+}
+
+<h2>Raw Report</h2>
+<br />
+@Model.Report(true, "Name", "Address", "Email", "Phone", "Gender")

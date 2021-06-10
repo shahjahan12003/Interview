@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<root>
+  <SalesHistory Id="1" ShopName="ABC General Store" ItemType="Apparel" ItemName="T-Shirt" CostPrice="500.00" SellingPrice="560.00" SellingDate="2012-04-16T01:29:11.040" Quantity="0" />
+  <SalesHistory Id="2" ShopName="ABC General Store" ItemType="Apparel" ItemName="Shirts" CostPrice="500.00" SellingPrice="560.00" SellingDate="2012-04-16T01:31:33.087" Quantity="1" />
+  <SalesHistory Id="3" ShopName="ABC General Store" ItemType="Apparel" ItemName="T-Shirt" CostPrice="500.00" SellingPrice="560.00" SellingDate="2012-04-16T18:44:47.023" Quantity="1" />
+  <SalesHistory Id="4" ShopName="Big Bazaar" ItemType="Apparel" ItemName="T-Shirt" CostPrice="500.00" SellingPrice="540.00" SellingDate="2012-04-08T18:45:34.417" Quantity="9" />
+  <SalesHistory Id="5" ShopName="Big Bazaar" ItemType="Apparel" ItemName="T-Shirt" CostPrice="699.00" SellingPrice="749.00" SellingDate="2012-04-05T18:45:59.580" Quantity="12" />
+  <SalesHistory Id="6" ShopName="Big Bazaar" ItemType="Apparel" ItemName="Jeans" CostPrice="699.00" SellingPrice="749.00" SellingDate="2012-04-05T18:46:54.587" Quantity="12" />
+  <SalesHistory Id="7" ShopName="Reliance Mart" ItemType="Apparel" ItemName="Jeans" CostPrice="599.00" SellingPrice="635.00" SellingDate="2012-02-14T18:49:08.563" Quantity="12" />
+  <SalesHistory Id="8" ShopName="Reliance Mart" ItemType="Apparel" ItemName="Shirts" CostPrice="599.00" SellingPrice="635.00" SellingDate="2012-01-08T18:49:17.893" Quantity="18" />
+  <SalesHistory Id="9" ShopName="Reliance Mart" ItemType="Apparel" ItemName="T-Shirt" CostPrice="456.00" SellingPrice="525.00" SellingDate="2012-02-08T18:49:40.620" Quantity="13" />
+  <SalesHistory Id="10" ShopName="Reliance Mart" ItemType="Electronics" ItemName="Laptop" CostPrice="25000.00" SellingPrice="30000.00" SellingDate="2012-01-14T18:50:28.843" Quantity="17" />
+  <SalesHistory Id="11" ShopName="Reliance Mart" ItemType="Electronics" ItemName="Laptop" CostPrice="35000.00" SellingPrice="39000.00" SellingDate="2012-01-20T18:50:46.787" Quantity="16" />
+  <SalesHistory Id="12" ShopName="Reliance Mart" ItemType="Electronics" ItemName="Hard Disk" CostPrice="5000.00" SellingPrice="5699.00" SellingDate="2012-01-31T18:51:08.690" Quantity="14" />
+  <SalesHistory Id="13" ShopName="Big Bazaar" ItemType="Food Item" ItemName="Apple" CostPrice="100.00" SellingPrice="140.00" SellingDate="2012-01-06T18:52:14.910" Quantity="19" />
+  <SalesHistory Id="14" ShopName="Big Bazaar" ItemType="Electronics" ItemName="Laptop" CostPrice="36000.00" SellingPrice="45000.00" SellingDate="2012-01-18T18:59:47.807" Quantity="17" />
+  <SalesHistory Id="15" ShopName="ABC General Store" ItemType="Food Item" ItemName="Banana" CostPrice="50.00" SellingPrice="65.00" SellingDate="2012-01-31T19:00:40.690" Quantity="14" />
+  <SalesHistory Id="16" ShopName="ABC General Store" ItemType="Food Item" ItemName="Apple" CostPrice="110.00" SellingPrice="135.00" SellingDate="2012-04-04T19:01:01.110" Quantity="3" />
+  <SalesHistory Id="16" ShopName="ABC General Store" ItemType="Food Item" ItemName="Orange" CostPrice="94.00" SellingPrice="135.00" SellingDate="2012-04-04T19:01:01.110" Quantity="3" />
+  <SalesHistory Id="16" ShopName="Reliance Mart" ItemType="Food Item" ItemName="Orange" CostPrice="90.00" SellingPrice="135.00" SellingDate="2012-04-05T19:01:01.110" Quantity="3" />
+</root>

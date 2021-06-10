@@ -1,0 +1,14 @@
+﻿@model IEnumerable<MvcMasterDetails.Model.SalesHistory>
+
+@{
+    ViewBag.Title = "With Report Column";
+}
+
+<h2>With Report Column</h2>
+
+@Model.OrderBy(x => x.ShopName).Report(true, 
+    new ReportColumn("Store Name", "ShopName", new Style { BackColor = System.Drawing.Color.LightSlateGray, Bold = true, Width = 190 }),
+    new ReportColumn("Item Type", "ItemType"),
+    new ReportColumn("Item Name", "ItemName"),
+    new ReportColumn("Cost Price", "INR ##CostPrice##", "price"),
+    new ReportColumn("Selling Price", "$##SellingPrice##", "price"))

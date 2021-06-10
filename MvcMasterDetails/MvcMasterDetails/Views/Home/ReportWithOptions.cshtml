@@ -1,0 +1,11 @@
+﻿@model IEnumerable<MvcMasterDetails.Model.Employee>
+
+@{
+    ViewBag.Title = "Report With Options";
+}
+
+<h2>Report With Options</h2>
+<br />
+
+@Model.Report(true, "Name", "Address", "Email", "Phone No.::Phone", "Gender:: I am ##Gender##", 
+    "Action:: <a href='#' onclick='javascript:alert(\"You clicked edit for Employee Id: ##Id##\")'>Edit</a>")

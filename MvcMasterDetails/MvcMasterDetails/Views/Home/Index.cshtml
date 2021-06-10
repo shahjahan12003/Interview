@@ -1,0 +1,33 @@
+@{
+    ViewBag.Title = "MVC Report Home Page";
+}
+
+ 
+
+<h3>Grid Demos</h3>
+    
+    <ul>
+        <li>@Html.ActionLink("Raw Report", "RawReport", "Home")</li>
+        <li>@Html.ActionLink("Report With Options", "ReportWithOptions", "Home")</li>
+        <li>@Html.ActionLink("Report With Pivot", "ReportWithPivot", "Home")</li>
+        <li>@Html.ActionLink("Report With ReportColumn", "WithReportColumn", "Home")</li>
+        <li>@Html.ActionLink("Contact", "Contact", "Home")</li>
+    </ul>
+
+<h3>This sample contains the following:</h3>
+
+<ol class="round">
+    <li class="one">
+        <h5>Create Grid Report</h5>
+        The code here provides you a sample on how you can create a simple grid/report just by calling Report extension method.
+    </li>
+    <li class="two">
+        <h5>Pivot the Report</h5>
+        The code here also provides you the sample to Pivot the report.
+    </li>
+    <li class="three">
+        <h5>Source Code of Extension methods</h5>
+        Please have a look over ReportControl assembly to see how the things are happening internally.
+    </li>
+</ol>
+
